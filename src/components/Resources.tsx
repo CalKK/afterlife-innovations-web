@@ -75,9 +75,14 @@ const Resources = () => {
 
         {/* Blog Posts */}
         <div className="mb-16">
-          <h3 className="text-2xl font-heading font-semibold text-innovation mb-8">
-            Latest Blog Posts
-          </h3>
+          <div className="flex items-center justify-between mb-8">
+            <h3 className="text-2xl font-heading font-semibold text-innovation">
+              Latest Blog Posts
+            </h3>
+            <Button className="bg-sustainability hover:bg-sustainability-light">
+              Add New Article
+            </Button>
+          </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {blogPosts.map((post, index) => (
@@ -116,9 +121,14 @@ const Resources = () => {
 
         {/* Videos */}
         <div className="mb-16">
-          <h3 className="text-2xl font-heading font-semibold text-innovation mb-8">
-            Educational Videos
-          </h3>
+          <div className="flex items-center justify-between mb-8">
+            <h3 className="text-2xl font-heading font-semibold text-innovation">
+              Educational Videos
+            </h3>
+            <Button className="bg-sustainability hover:bg-sustainability-light">
+              Add New Video
+            </Button>
+          </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {videos.map((video, index) => (
