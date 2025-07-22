@@ -18,14 +18,14 @@ const Stats = () => {
       icon: Globe,
       number: "2.5T",
       label: "CO₂ Emissions Saved",
-      description: "Per thousand batteries recycled through our processes"
+      description: "Per thousand batteries to be recycled through our processes"
     },
     {
       icon: Users,
       number: "10K+",
       label: "Community Members",
-      description: "Actively participating in our battery collection programs"
-    }
+      description: "To actively participating in our battery collection programs"
+    
   ];
 
   return (
