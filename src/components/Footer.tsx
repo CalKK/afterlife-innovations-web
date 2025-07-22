@@ -51,26 +51,26 @@ const Footer = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "hello@batteryreborn.com",
-      href: "mailto:hello@batteryreborn.com"
+      value: "afterlifebatteries@gmail.com",
+      href: "mailto:afterlifebatteries@gmail.com"
     },
     {
       icon: MessageCircle,
       label: "WhatsApp",
-      value: "+254 700 123 456",
-      href: "https://wa.me/254700123456"
+      value: "+254 792 902 821",
+      href: "https://wa.me/254792902821"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+254 700 123 456",
-      href: "tel:+254700123456"
+      value: "+254 792 902 821",
+      href: "tel:+254792902821"
     },
     {
       icon: MapPin,
       label: "Address",
       value: "Strathmore University, Nairobi, Kenya",
-      href: "#"
+      href: "https://strathmore.edu"
     }
   ];
 
@@ -83,14 +83,13 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-3 mb-6">
               <div className="w-12 h-12 bg-sustainability rounded-full flex items-center justify-center">
-                <span className="text-sustainability-foreground font-bold text-xl">B</span>
+                <span className="text-sustainability-foreground font-bold text-xl">AL</span>
               </div>
-              <h3 className="text-3xl font-heading font-bold">Battery Reborn</h3>
+              <h3 className="text-3xl font-heading font-bold">Afterlife Innovation</h3>
             </div>
             
             <p className="text-lg mb-8 leading-relaxed opacity-90">
-              Transforming the future of energy through sustainable battery solutions. 
-              Join us in creating a circular economy that puts the planet first.
+              Where Batteries Begin Again.
             </p>
 
             <div className="space-y-4">
@@ -150,34 +149,12 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Newsletter Signup */}
-        <div className="border-t border-sustainability/20 pt-12 mb-12">
-          <div className="max-w-2xl mx-auto text-center">
-            <h4 className="text-2xl font-heading font-semibold mb-4 text-sustainability">
-              Stay Updated
-            </h4>
-            <p className="mb-6 opacity-90">
-              Get the latest news about sustainable technology and our impact on the environment.
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-3 rounded-lg bg-innovation-foreground/10 border border-sustainability/20 text-innovation-foreground placeholder:text-innovation-foreground/60 focus:outline-none focus:ring-2 focus:ring-sustainability"
-              />
-              <button className="px-6 py-3 bg-sustainability hover:bg-sustainability-light text-sustainability-foreground font-medium rounded-lg transition-colors duration-200">
-                Subscribe
-              </button>
-            </div>
-          </div>
-        </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-sustainability/20 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="opacity-75 text-center md:text-left">
-              © 2024 Battery Reborn. All rights reserved. Building a sustainable tomorrow.
+              © 2024 Afterlife Innovations. All rights reserved. Building a sustainable tomorrow.
             </p>
             
             <div className="flex gap-6 text-sm">
