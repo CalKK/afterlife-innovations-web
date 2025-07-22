@@ -11,7 +11,7 @@ const Products = () => {
       features: ["20,000mAh capacity", "Fast charging technology", "Eco-friendly construction", "2-year warranty"],
       price: "From $49",
       image: "https://images.unsplash.com/photo-1609592424970-d1473b3de61e?w=400&h=300&fit=crop"
-    },
+    },/*
     {
       icon: Car,
       title: "E-bike Battery Packs",
@@ -35,9 +35,9 @@ const Products = () => {
       features: ["Custom configurations", "Scalable design", "Professional installation", "24/7 monitoring"],
       price: "Contact us",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=300&fit=crop"
-    }
+    }*/
   ];
-
+/*
   return (
     <section id="products" className="py-20 bg-background">
       <div className="container mx-auto px-4">
