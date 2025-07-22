@@ -14,8 +14,7 @@ const Hero = () => {
           
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 fade-in max-w-3xl mx-auto">
-            Transforming discarded batteries into powerful solutions for sustainable energy. 
-            Join us in building a circular economy that puts the planet first.
+           Powering Tomorrow with Reclaimed Batteries.
           </p>
 
           {/* CTA Buttons */}
