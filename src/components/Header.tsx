@@ -21,7 +21,7 @@ const Header = () => {
         {/* Logo */}
 <div className="flex items-center space-x-2">
   <img 
-    src="https://raw.githubusercontent.com/CalKK/battery-reborn-web/main/images/AFTERLIFE INNOVATIONS LOGO.png" 
+    src="https://raw.githubusercontent.com/CalKK/afterlife-innovations-web/main/images/AFTERLIFE INNOVATIONS LOGO.png" 
     alt="Afterlife Innovations Logo" 
     className="w-10 h-10 rounded-full" 
   />
