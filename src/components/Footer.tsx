@@ -1,50 +1,10 @@
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin, MessageCircle } from "lucide-react";
 
 const Footer = () => {
-  const footerSections = [
-    {
-      title: "Products",
-      links: [
-        { label: "Power Banks", href: "#" },
-        { label: "E-bike Batteries", href: "#" },
-        { label: "Home Storage", href: "#" },
-        { label: "Industrial Solutions", href: "#" }
-      ]
-    },
-    {
-      title: "Solutions",
-      links: [
-        { label: "For Consumers", href: "#" },
-        { label: "For SMEs", href: "#" },
-        { label: "For NGOs", href: "#" },
-        { label: "Custom Solutions", href: "#" }
-      ]
-    },
-    {
-      title: "Resources",
-      links: [
-        { label: "Blog", href: "#" },
-        { label: "Battery Safety", href: "#" },
-        { label: "Case Studies", href: "#" },
-        { label: "Impact Reports", href: "#" }
-      ]
-    },
-    {
-      title: "Company",
-      links: [
-        { label: "About Us", href: "#" },
-        { label: "Our Team", href: "#" },
-        { label: "Careers", href: "#" },
-        { label: "Press Kit", href: "#" }
-      ]
-    }
-  ];
 
   const socialLinks = [
-    { icon: Facebook, href: "#", label: "Facebook" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" }
+    { icon: Instagram, href: "https://www.instagram.com/p/DMXymXTMy9C/?igsh=bzkzcDRuaGt1d3Zt", label: "Instagram" },
+    { icon: Linkedin, href "https://www.linkedin.com/company/afterlife-innovations/?viewAsMember=true", label: "LinkedIn" }
   ];
 
   const contactInfo = [
