@@ -25,7 +25,7 @@ const Stats = () => {
       number: "10K+",
       label: "Community Members",
       description: "To actively participating in our battery collection programs"
-    
+    },    
   ];
 
   return (
