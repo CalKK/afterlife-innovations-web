@@ -137,4 +137,8 @@ const Resources = () => {
 </section>
 
 
+  );
+};
+
 export default Resources;
+
