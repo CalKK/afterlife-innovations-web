@@ -19,15 +19,18 @@ const Header = () => {
     <header className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-sustainability rounded-full flex items-center justify-center">
-              <span className="text-sustainability-foreground font-bold text-xl">AL</span>
-            </div>
-            <h1 className="text-2xl font-heading font-bold text-innovation">
-              Afterlife Innovations
-            </h1>
-          </div>
+        {/* Logo */}
+<div className="flex items-center space-x-2">
+  <img 
+    src="https://example.com/logo.png" 
+    alt="Afterlife Innovations Logo" 
+    className="w-10 h-10 rounded-full" 
+  />
+  <h1 className="text-2xl font-heading font-bold text-innovation">
+    Afterlife Innovations
+  </h1>
+</div>
+
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
