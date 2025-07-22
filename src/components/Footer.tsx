@@ -42,9 +42,11 @@ const Footer = () => {
           {/* Contact Information */}
           <div>
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 bg-sustainability rounded-full flex items-center justify-center">
-                <span className="text-sustainability-foreground font-bold text-xl">AL</span>
-              </div>
+               <img 
+                 src="https://raw.githubusercontent.com/CalKK/battery-reborn-web/main/images/AFTERLIFE INNOVATIONS LOGO.png" 
+                 alt="Afterlife Innovations Logo" 
+                 className="w-10 h-10 rounded-full" 
+                 />
               <h3 className="text-3xl font-heading font-bold">Afterlife Innovation</h3>
             </div>
             
