@@ -22,10 +22,10 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-sustainability rounded-full flex items-center justify-center">
-              <span className="text-sustainability-foreground font-bold text-xl">B</span>
+              <span className="text-sustainability-foreground font-bold text-xl">AL</span>
             </div>
             <h1 className="text-2xl font-heading font-bold text-innovation">
-              Battery Reborn
+              Afterlife Innovations
             </h1>
           </div>
 
