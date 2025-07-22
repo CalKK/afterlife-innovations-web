@@ -6,12 +6,12 @@ const Products = () => {
   const products = [
     {
       icon: Smartphone,
-      title: "Portable Power Banks",
+      title: "Portable Second-life Power Banks",
       description: "High-capacity power banks built from repurposed lithium batteries, perfect for consumers who need reliable mobile charging.",
-      features: ["20,000mAh capacity", "Fast charging technology", "Eco-friendly construction", "2-year warranty"],
-      price: "From $49",
+      features: ["10,000mAh capacity", "Fast charging technology", "Eco-friendly construction"],
       image: "https://images.unsplash.com/photo-1609592424970-d1473b3de61e?w=400&h=300&fit=crop"
     },
+    /*
     {
       icon: Car,
       title: "E-bike Battery Packs",
@@ -37,7 +37,7 @@ const Products = () => {
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=300&fit=crop"
     }
   ];
-
+*/
   return (
     <section id="products" className="py-20 bg-background">
       <div className="container mx-auto px-4">
@@ -46,8 +46,7 @@ const Products = () => {
             Sustainable Power Solutions
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            From portable power banks to industrial storage systems, our products are built 
-            from repurposed batteries to deliver reliable performance while protecting the planet.
+            Our flagship second-life powerbank 
           </p>
         </div>
 
@@ -83,21 +82,9 @@ const Products = () => {
 
                 <div className="flex items-center justify-between pt-4 border-t border-border">
                   <div className="text-2xl font-heading font-bold text-sustainability">
-                    {product.price}
-                  </div>
-                  <Button className="bg-sustainability hover:bg-sustainability-light">
-                    Learn More
-                  </Button>
-                </div>
               </CardContent>
             </Card>
           ))}
-        </div>
-
-        <div className="text-center mt-16">
-          <Button size="lg" variant="outline" className="border-sustainability text-sustainability hover:bg-sustainability/10">
-            View All Products
-          </Button>
         </div>
       </div>
     </section>
