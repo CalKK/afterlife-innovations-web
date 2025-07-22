@@ -17,16 +17,6 @@ const Hero = () => {
            Powering Tomorrow with Reclaimed Batteries.
           </p>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16 fade-in">
-            <Button size="lg" className="text-lg px-8 py-4 bg-sustainability hover:bg-sustainability-light">
-              Explore Products
-            </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8 py-4 border-sustainability text-sustainability hover:bg-sustainability/10">
-              Learn About Impact
-            </Button>
-          </div>
-
           {/* Feature Icons */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 slide-up">
             <div className="flex flex-col items-center p-6 bg-card rounded-2xl border border-border shadow-sm hover:shadow-lg transition-all duration-300">
