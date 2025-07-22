@@ -36,8 +36,8 @@ const Products = () => {
       price: "Contact us",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=300&fit=crop"
     }
+    */
   ];
-*/
   return (
     <section id="products" className="py-20 bg-background">
       <div className="container mx-auto px-4">
