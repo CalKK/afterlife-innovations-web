@@ -56,34 +56,32 @@ const Products = () => {
               <div className="aspect-video bg-gradient-to-br from-sustainability/10 to-sustainability/5 flex items-center justify-center">
                 <product.icon className="w-16 h-16 text-sustainability" />
               </div>
-              
-              <CardHeader>
-                <CardTitle className="flex items-center gap-3 text-2xl font-heading text-innovation">
-                  {product.title}
-                </CardTitle>
-              </CardHeader>
-              
-              <CardContent className="space-y-6">
-                <p className="text-muted-foreground leading-relaxed">
-                  {product.description}
-                </p>
+     <CardHeader>
+  <CardTitle className="flex items-center gap-3 text-2xl font-heading text-innovation">
+    {product.title}
+  </CardTitle>
+</CardHeader>
 
-                <div className="space-y-2">
-                  <h4 className="font-heading font-semibold text-innovation">Key Features:</h4>
-                  <ul className="space-y-1">
-                    {product.features.map((feature, featureIndex) => (
-                      <li key={featureIndex} className="text-muted-foreground text-sm flex items-center gap-2">
-                        <div className="w-1.5 h-1.5 bg-sustainability rounded-full" />
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+<CardContent className="space-y-6">
+  <p className="text-muted-foreground leading-relaxed">
+    {product.description}
+  </p>
 
-                <div className="flex items-center justify-between pt-4 border-t border-border">
-                  <div className="text-2xl font-heading font-bold text-sustainability">
-              </CardContent>
-            </Card>
+  <div className="space-y-2">
+    <h4 className="font-heading font-semibold text-innovation">Key Features:</h4>
+    <ul className="space-y-1">
+      {product.features.map((feature, featureIndex) => (
+        <li key={featureIndex} className="text-muted-foreground text-sm flex items-center gap-2">
+          <div className="w-1.5 h-1.5 bg-sustainability rounded-full" />
+          {feature}
+        </li>
+      ))}
+    </ul>
+  </div>
+</CardContent>
+
+</Card>
+
           ))}
         </div>
       </div>
