@@ -13,14 +13,14 @@ const Resources = () => {
     },
     {
       title: "Strathmore Innovators transform E-waste into opportunities",
-      image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=250&fit=crop",
+      image: "https://unsplash.com/photos/battery-charging-electrical-power-energy-supply-source-concept-mobile-phone-app-symbol-green-accumulator-with-level-indicator-and-lightning-on-black-background-3d-illustration-jv3KOHVNvPM",
       link: "https://strathmore.edu/news-articles/strathmore-innovators-transform-e-waste-into-opportunities/",
       category: "Innovation",
       excerpt: "Learn about our innovative approach to e-waste transformation.",
     },
     {
       title: "Distinguished Design Award",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=400&h=250&fit=crop",
+      image: "https://unsplash.com/photos/white-letter-y-on-black-leather-textile-hIXvg7eza20",
       link: "https://www.energymentors.org/ptc-winners-2025",
       category: "Innovation",
       excerpt: "Celebrating our recognition for outstanding design innovation.",
@@ -36,7 +36,7 @@ const Resources = () => {
     },
     {
       title: "Energy Mentors Award",
-      thumbnail: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400&h=250&fit=crop",
+      thumbnail: "https://unsplash.com/photos/a-house-with-a-solar-panel-on-top-of-it-tFZOll_92v4",
       link: "https://youtu.be/qgE5EDjO2cA",
       description: "Highlights from receiving the Energy Mentors Award."
     }
