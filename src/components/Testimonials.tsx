@@ -1,5 +1,10 @@
-import { Star, Quote } from "lucide-react";
+import { Quote } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import partner1 from "@/assets/partner1.jpg";
+import partner2 from "@/assets/partner2.jpg";
+import partner3 from "@/assets/partner3.jpg";
+import partner4 from "@/assets/partner4.jpg";
+import partner5 from "@/assets/partner5.jpg";
 
 const Testimonials = () => {
   const testimonials = [
@@ -56,13 +61,8 @@ const Testimonials = () => {
                   </p>
                 </div>
                 
-                <div className="flex items-center gap-4">
-                  <img 
-                    src={testimonial.avatar} 
-                    alt={testimonial.name}
-                    className="w-12 h-12 rounded-full object-cover"
-                  />
-                  <div className="flex-1">
+                <div className="flex items-center">
+                  <div>
                     <h4 className="font-heading font-semibold text-innovation">
                       {testimonial.name}
                     </h4>
@@ -72,11 +72,6 @@ const Testimonials = () => {
                     <p className="text-sm text-sustainability font-medium">
                       {testimonial.company}
                     </p>
-                  </div>
-                  <div className="flex gap-1">
-                    {[...Array(testimonial.rating)].map((_, i) => (
-                      <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                    ))}
                   </div>
                 </div>
               </CardContent>
@@ -90,16 +85,15 @@ const Testimonials = () => {
             Proud Partners & Collaborators
           </h3>
           
-          <div className="grid grid-cols-2 md:grid-cols-6 gap-8 items-center">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center">
             {partners.map((partner, index) => (
-              <div 
-                key={index} 
-                className="flex flex-col items-center p-6 bg-background rounded-xl border border-border hover:shadow-md transition-all duration-300"
-              >
-                <div className="text-4xl mb-3">
-                  {partner.logo}
-                </div>
-                <p className="text-sm font-medium text-innovation text-center">
+              <div key={index} className="flex flex-col items-center">
+                <img
+                  src={partner.image}
+                  alt={partner.name}
+                  className="w-24 h-24 object-cover rounded-lg grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100"
+                />
+                <p className="text-sm font-medium text-innovation text-center mt-2">
                   {partner.name}
                 </p>
               </div>
