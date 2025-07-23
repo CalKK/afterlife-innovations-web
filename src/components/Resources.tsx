@@ -6,7 +6,7 @@ const Resources = () => {
   const blogPosts = [
     {
       title: "Giving Batteries a Second Life",
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=250&fit=crop",
+      image: "https://unsplash.com/photos/smartphone-on-wireless-charging-case-at-83-percent-charge-Fo1ZKpX4-f8",
       link: "https://strathmore.edu/news-articles/giving-batteries-a-second-life/",
       category: "Innovation",
       excerpt: "Discover how we're transforming discarded batteries into valuable resources.",
