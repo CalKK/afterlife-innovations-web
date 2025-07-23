@@ -4,7 +4,7 @@ const Footer = () => {
 
   const socialLinks = [
     { icon: Instagram, href: "https://www.instagram.com/p/DMXymXTMy9C/?igsh=bzkzcDRuaGt1d3Zt", label: "Instagram" },
-    { icon: Linkedin, href "https://www.linkedin.com/company/afterlife-innovations/?viewAsMember=true", label: "LinkedIn" }
+    { icon: Linkedin, href: "https://www.linkedin.com/company/afterlife-innovations/?viewAsMember=true", label: "LinkedIn" }
   ];
 
   const contactInfo = [
@@ -89,25 +89,49 @@ const Footer = () => {
 
           {/* Footer Links */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {footerSections.map((section, index) => (
-              <div key={index}>
-                <h4 className="text-lg font-heading font-semibold mb-4 text-sustainability">
-                  {section.title}
-                </h4>
-                <ul className="space-y-3">
-                  {section.links.map((link, linkIndex) => (
-                    <li key={linkIndex}>
-                      <a 
-                        href={link.href}
-                        className="opacity-75 hover:opacity-100 hover:text-sustainability transition-all duration-200"
-                      >
-                        {link.label}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+            <div>
+              <h4 className="text-lg font-heading font-semibold mb-4 text-sustainability">
+                Company
+              </h4>
+              <ul className="space-y-3">
+                <li><a href="#" className="opacity-75 hover:opacity-100 hover:text-sustainability transition-all duration-200">About Us</a></li>
+                <li><a href="#" className="opacity-75 hover:opacity-100 hover:text-sustainability transition-all duration-200">Our Team</a></li>
+                <li><a href="#" className="opacity-75 hover:opacity-100 hover:text-sustainability transition-all duration-200">Careers</a></li>
+              </ul>
+            </div>
+            
+            <div>
+              <h4 className="text-lg font-heading font-semibold mb-4 text-sustainability">
+                Solutions
+              </h4>
+              <ul className="space-y-3">
+                <li><a href="#" className="opacity-75 hover:opacity-100 hover:text-sustainability transition-all duration-200">For Consumers</a></li>
+                <li><a href="#" className="opacity-75 hover:opacity-100 hover:text-sustainability transition-all duration-200">For SMEs</a></li>
+                <li><a href="#" className="opacity-75 hover:opacity-100 hover:text-sustainability transition-all duration-200">For NGOs</a></li>
+              </ul>
+            </div>
+            
+            <div>
+              <h4 className="text-lg font-heading font-semibold mb-4 text-sustainability">
+                Resources
+              </h4>
+              <ul className="space-y-3">
+                <li><a href="#resources" className="opacity-75 hover:opacity-100 hover:text-sustainability transition-all duration-200">Blog</a></li>
+                <li><a href="#" className="opacity-75 hover:opacity-100 hover:text-sustainability transition-all duration-200">Battery Safety</a></li>
+                <li><a href="#" className="opacity-75 hover:opacity-100 hover:text-sustainability transition-all duration-200">Case Studies</a></li>
+              </ul>
+            </div>
+            
+            <div>
+              <h4 className="text-lg font-heading font-semibold mb-4 text-sustainability">
+                Support
+              </h4>
+              <ul className="space-y-3">
+                <li><a href="#contact" className="opacity-75 hover:opacity-100 hover:text-sustainability transition-all duration-200">Contact Us</a></li>
+                <li><a href="#" className="opacity-75 hover:opacity-100 hover:text-sustainability transition-all duration-200">Help Center</a></li>
+                <li><a href="#" className="opacity-75 hover:opacity-100 hover:text-sustainability transition-all duration-200">FAQ</a></li>
+              </ul>
+            </div>
           </div>
         </div>
 
