@@ -8,24 +8,18 @@ const Testimonials = () => {
       role: "Dean of School of Computing & Engineering Sciences (SCES)",
       company: "Strathmore University",
       content: "Afterlife Innovation's approach to circular economy is revolutionary. Their partnership with our research department has yielded incredible insights into sustainable battery technologies.",
-      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
-      rating: 5
     },
     {
       name: "Don Victory",
       role: "President & Managing Director",
       company: "Energy Mentors",
       content: "Afterlife Innovations came up with a new energy business model: Repurposing EV batteries that still have capacity after being removed from autos - people in their community can swap them to power bulbs, phones, and fans in their homes. This gets people onto the energy prosperity ladder without needing upfront capital to, for example, install solar panels.",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
-      rating: 5
     },
     {
       name: "Ian Kiprono",
       role: "Ex-community Manager",
       company: "Energy Mentors",
       content: "Afterlife Innovations has demonstrated robust prowess in delivering sound innovations within their market",
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face",
-      rating: 5
     }
   ];
 
