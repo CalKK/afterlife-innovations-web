@@ -41,7 +41,7 @@ const Footer = () => {
                  alt="Afterlife Innovations Logo" 
                  className="w-10 h-10 rounded-full" 
                  />
-              <h3 className="text-3xl font-heading font-bold">Afterlife Innovation</h3>
+              <h3 className="text-3xl font-heading font-bold">Afterlife Innovations</h3>
             </div>
             
             <p className="text-lg mb-8 leading-relaxed opacity-90">
