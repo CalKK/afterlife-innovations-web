@@ -9,27 +9,21 @@ const Resources = () => {
       image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=250&fit=crop",
       link: "https://strathmore.edu/news-articles/giving-batteries-a-second-life/",
       category: "Innovation",
-      readTime: "5 min read",
       excerpt: "Discover how we're transforming discarded batteries into valuable resources.",
-      date: "2024-01-15"
     },
     {
       title: "Strathmore Innovators transform E-waste into opportunities",
       image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=250&fit=crop",
       link: "https://strathmore.edu/news-articles/strathmore-innovators-transform-e-waste-into-opportunities/",
-      category: "Case Study",
-      readTime: "8 min read",
+      category: "Innovation",
       excerpt: "Learn about our innovative approach to e-waste transformation.",
-      date: "2024-01-10"
     },
     {
       title: "Distinguished Design Award",
       image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=400&h=250&fit=crop",
       link: "https://www.energymentors.org/ptc-winners-2025",
-      category: "Awards",
-      readTime: "3 min read",
+      category: "Innovation",
       excerpt: "Celebrating our recognition for outstanding design innovation.",
-      date: "2024-01-05"
     }
   ];
 
@@ -38,15 +32,13 @@ const Resources = () => {
       title: "Power The Community Victors Interview",
       thumbnail: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=250&fit=crop",
       link: "https://youtu.be/mYTZQqUBzC4",
-      duration: "8:30",
       description: "Interview with our team about winning the Power The Community competition."
     },
     {
       title: "Energy Mentors Award",
       thumbnail: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400&h=250&fit=crop",
       link: "https://youtu.be/qgE5EDjO2cA",
-      duration: "5:45",
-      description: "Highlights from receiving the Energy Mentors Award ceremony."
+      description: "Highlights from receiving the Energy Mentors Award."
     }
   ];
 
