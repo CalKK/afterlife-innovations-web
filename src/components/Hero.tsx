@@ -7,10 +7,11 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-16">
         <div className="text-center max-w-5xl mx-auto">
           {/* Hero Title */}
-          <h1 className="text-5xl md:text-7xl font-heading font-bold text-innovation mb-6 fade-in">
-            Where Batteries
-            <span className="text-5xl md:text-7xl font-heading font-bold text-innovation mb-6 fade-in"> Begin Again </span>
-          </h1>
+         <h1 className="text-5xl md:text-7xl font-heading font-bold text-innovation mb-6 fade-in">
+             <span className="block">Where Batteries</span>
+             <span className="block">Begin Again</span>
+         </h1>
+
           
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 fade-in max-w-3xl mx-auto">
