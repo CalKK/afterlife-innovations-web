@@ -21,7 +21,7 @@ const Hero = () => {
           {/* Feature Icons */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 slide-up">
             <div className="flex flex-col items-center p-6 bg-card rounded-2xl border border-border shadow-sm hover:shadow-lg transition-all duration-300">
-              <div className="w-16 h-16 bg-sustainability/10 rounded-full flex items-center justify-center mb-4">
+              <div className="text-4xl font-heading font-bold text-innovation mb-4/10 rounded-full flex items-center justify-center mb-4">
                 <Battery className="w-8 h-8 text-sustainability" />
               </div>
               <h3 className="text-xl font-heading font-semibold mb-3">Battery Repurposing</h3>
@@ -31,7 +31,7 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col items-center p-6 bg-card rounded-2xl border border-border shadow-sm hover:shadow-lg transition-all duration-300">
-              <div className="w-16 h-16 bg-sustainability/10 rounded-full flex items-center justify-center mb-4">
+              <div className="text-4xl font-heading font-bold text-innovation mb-4/10 rounded-full flex items-center justify-center mb-4">
                 <Recycle className="w-8 h-8 text-sustainability" />
               </div>
               <h3 className="text-xl font-heading font-semibold mb-3">Circular Economy</h3>
@@ -41,7 +41,7 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col items-center p-6 bg-card rounded-2xl border border-border shadow-sm hover:shadow-lg transition-all duration-300">
-              <div className="w-16 h-16 bg-sustainability/10 rounded-full flex items-center justify-center mb-4">
+              <div className="text-4xl font-heading font-bold text-innovation mb-4/10 rounded-full flex items-center justify-center mb-4">
                 <Leaf className="w-8 h-8 text-sustainability" />
               </div>
               <h3 className="text-xl font-heading font-semibold mb-3">Environmental Impact</h3>
