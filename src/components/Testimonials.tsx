@@ -37,7 +37,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="py-20 bg-sustainability/5">
+    <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         {/* Testimonials */}
         <div className="text-center mb-16">
@@ -89,7 +89,7 @@ const Testimonials = () => {
             {partners.map((partner, index) => (
               <div key={index} className="flex flex-col items-center">
                 <img
-                  src={partner.image}
+                  src={partner.logo}
                   alt={partner.name}
                   className="w-24 h-24 object-cover rounded-lg grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100"
                 />
