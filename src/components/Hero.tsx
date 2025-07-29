@@ -9,7 +9,7 @@ const Hero = () => {
           {/* Hero Title */}
           <h1 className="text-5xl md:text-7xl font-heading font-bold text-innovation mb-6 fade-in">
             Where Batteries
-            <span className="block text-sustainability">Begin Again</span>
+            <span className="text-5xl md:text-7xl font-heading font-bold text-innovation mb-6 fade-in">Begin Again</span>
           </h1>
           
           {/* Subtitle */}
