@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-background to-sustainability/5 pt-20">
+    <section id="home" className="min-h-screen flex items-center justify-center bg-background pt-20">
       <div className="container mx-auto px-4 py-16">
         <div className="text-center max-w-5xl mx-auto">
           {/* Hero Title */}
