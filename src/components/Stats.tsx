@@ -29,7 +29,7 @@ const Stats = () => {
   ];
 
   return (
-    <section className="text-4xl font-heading font-bold text-innovation mb-4">
+    <section className="py-20 bg-sustainability/5">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-heading font-bold text-innovation mb-4">
@@ -47,11 +47,11 @@ const Stats = () => {
               key={index} 
               className="text-center p-8 bg-background rounded-2xl border border-border shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
             >
-              <div className="w-16 h-16 bg-sustainability/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                <stat.icon className="w-8 h-8 text-sustainability" />
+              <div className="text-4xl font-heading font-bold text-innovation mb-4/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                <stat.icon className="text-4xl font-heading font-bold text-innovation mb-4" />
               </div>
               
-              <div className="text-4xl font-heading font-bold text-sustainability mb-2">
+              <div className="text-4xl font-heading font-bold text-innovation mb-4">
                 {stat.number}
               </div>
               
