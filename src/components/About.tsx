@@ -6,7 +6,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-heading font-bold text-innovation mb-4">
-            About Afterlife Innovations
+            About Us
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             We transform discarded batteries into powerful, sustainable energy solutions for a circular economy.
@@ -28,28 +28,24 @@ const About = () => {
 
           <div className="grid grid-cols-2 gap-6">
             <div className="text-center p-6 bg-card rounded-2xl border border-border">
-              <Target className="text-4xl font-heading font-bold text-innovation mb-4" />
               <h4 className="font-heading font-semibold text-innovation mb-2">Our Vision</h4>
               <p className="text-sm text-muted-foreground">
                 Zero battery waste through complete circular economy solutions
               </p>
             </div>
             <div className="text-center p-6 bg-card rounded-2xl border border-border">
-              <Lightbulb className="text-4xl font-heading font-bold text-innovation mb-4" />
               <h4 className="font-heading font-semibold text-innovation mb-2">Innovation</h4>
               <p className="text-sm text-muted-foreground">
                 Pioneering technologies in battery testing and repurposing
               </p>
             </div>
             <div className="text-center p-6 bg-card rounded-2xl border border-border">
-              <Shield className="text-4xl font-heading font-bold text-innovation mb-4" />
               <h4 className="font-heading font-semibold text-innovation mb-2">Quality</h4>
               <p className="text-sm text-muted-foreground">
                 Rigorous testing ensures reliable, safe second-life products
               </p>
             </div>
             <div className="text-center p-6 bg-card rounded-2xl border border-border">
-              <Leaf className="text-4xl font-heading font-bold text-innovation mb-4" />
               <h4 className="font-heading font-semibold text-innovation mb-2">Impact</h4>
               <p className="text-sm text-muted-foreground">
                 Measurable environmental benefits through waste reduction
@@ -64,21 +60,18 @@ const About = () => {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="space-y-3">
-              <Battery className="text-xl font-heading font-semibold mb-3" />
               <h4 className="font-heading font-semibold text-innovation">Collect & Test</h4>
               <p className="text-sm text-muted-foreground">
                 Source end-of-life batteries and perform comprehensive testing to assess remaining capacity
               </p>
             </div>
             <div className="space-y-3">
-              <Recycle className="text-xl font-heading font-semibold mb-3" />
               <h4 className="font-heading font-semibold text-innovation">Refurbish & Repurpose</h4>
               <p className="text-sm text-muted-foreground">
                 Refurbish viable batteries and integrate them into new sustainable energy products
               </p>
             </div>
             <div className="space-y-3">
-              
               <h4 className="font-heading font-semibold text-innovation">Deploy & Impact</h4>
               <p className="text-sm text-muted-foreground">
                 Deliver high-quality second-life products that reduce waste and provide clean energy
