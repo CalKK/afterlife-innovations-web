@@ -4,44 +4,44 @@ import { Card, CardContent } from "@/components/ui/card";
 const Team = () => {
   const teamMembers = [
     {
-      name: "Sarah Chen",
-      role: "CEO & Founder",
-      bio: "Sustainable energy expert with 10+ years in battery technology and circular economy solutions.",
+      name: "Morris Murigi",
+      role: "CEO",
+      bio: "Provides overall vision, leadership, and strategic direction to ensure Afterlife Innovations scales impactfully while fulfilling its mission of powering a circular economy through second-life batteries.",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=400&fit=crop",
       initials: "SC"
     },
     {
-      name: "Marcus Johnson",
-      role: "CTO",
-      bio: "Former Tesla engineer specializing in battery management systems and power electronics.",
+      name: "Andy Onyango",
+      role: "COO",
+      bio: "Manages day-to-day operations across collection, logistics, refurbishing, and recycling to ensure smooth, cost-effective, and scalable execution of the company’s circular processes.",
       image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=400&h=400&fit=crop",
       initials: "MJ"
     },
     {
-      name: "Elena Rodriguez",
-      role: "Head of Operations",
-      bio: "Supply chain and operations expert focused on sustainable manufacturing and quality assurance.",
+      name: "Calvin Kinyanjui",
+      role: "CPO",
+      bio: "Oversees the design, development, and lifecycle of repurposed battery products and energy solutions to ensure they meet market needs, regulatory standards, and sustainability goals.",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=400&fit=crop",
       initials: "ER"
     },
     {
-      name: "David Kim",
-      role: "Lead Engineer",
-      bio: "Electrical engineer with expertise in battery testing, refurbishment, and safety protocols.",
+      name: "Gabriel MUsyoki",
+      role: "CTO",
+      bio: "Leads the technological roadmap, including battery testing, energy management systems, and recycling tech innovations that drive efficiency, safety, and performance.",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
       initials: "DK"
     },
     {
-      name: "Amara Okafor",
-      role: "Sustainability Director",
-      bio: "Environmental scientist driving our circular economy initiatives and impact measurement.",
+      name: "Jeremy Kering",
+      role: "CRO",
+      bio: "Plays a pivotal role in driving innovation and ensuring the scientific and technical excellence of all battery repurposing, recycling, and energy storage solutions.",
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b1f5?w=400&h=400&fit=crop",
       initials: "AO"
     },
     {
-      name: "James Thompson",
-      role: "Business Development",
-      bio: "Strategic partnerships specialist connecting with suppliers, customers, and sustainability partners.",
+      name: "Janet Mbugua",
+      role: "CFO",
+      bio: "Directs financial planning, budgeting, and funding strategies to sustain growth, ensure compliance, and support investments in clean technology and infrastructure.",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
       initials: "JT"
     }
