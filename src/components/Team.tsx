@@ -8,42 +8,42 @@ const Team = () => {
       role: "CEO",
       bio: "Provides overall vision, leadership, and strategic direction to ensure Afterlife Innovations scales impactfully while fulfilling its mission of powering a circular economy through second-life batteries.",
       image: "https://raw.githubusercontent.com/CalKK/afterlife-innovations-web/main/images/MORRIS.jpg",
-      initials: "SC"
+      initials: "MM"
     },
     {
       name: "Andy Onyango",
       role: "COO",
       bio: "Manages day-to-day operations across collection, logistics, refurbishing, and recycling to ensure smooth, cost-effective, and scalable execution of the company’s circular processes.",
       image: "https://raw.githubusercontent.com/CalKK/afterlife-innovations-web/main/images/ANDY.png",
-      initials: "MJ"
+      initials: "AO"
     },
     {
       name: "Calvin Kinyanjui",
       role: "CPO",
       bio: "Oversees the design, development, and lifecycle of repurposed battery products and energy solutions to ensure they meet market needs, regulatory standards, and sustainability goals.",
       image: "https://raw.githubusercontent.com/CalKK/afterlife-innovations-web/main/images/CALVIN HEADSHOT.jpeg",
-      initials: "ER"
+      initials: "CK"
     },
     {
-      name: "Gabriel MUsyoki",
+      name: "Gabriel Musyoki",
       role: "CTO",
       bio: "Leads the technological roadmap, including battery testing, energy management systems, and recycling tech innovations that drive efficiency, safety, and performance.",
       image: "https://raw.githubusercontent.com/CalKK/afterlife-innovations-web/main/images/GABU.jpg",
-      initials: "DK"
+      initials: "GM"
     },
     {
       name: "Jeremy Kering",
       role: "CRO",
       bio: "Plays a pivotal role in driving innovation and ensuring the scientific and technical excellence of all battery repurposing, recycling, and energy storage solutions.",
       image: "https://raw.githubusercontent.com/CalKK/afterlife-innovations-web/main/images/KERING.jpg",
-      initials: "AO"
+      initials: "JK"
     },
     {
       name: "Janet Mbugua",
       role: "CFO",
       bio: "Directs financial planning, budgeting, and funding strategies to sustain growth, ensure compliance, and support investments in clean technology and infrastructure.",
       image: "https://raw.githubusercontent.com/CalKK/afterlife-innovations-web/main/images/JANET.jpg",
-      initials: "JT"
+      initials: "JM"
     }
   ];
 
@@ -55,7 +55,7 @@ const Team = () => {
             Meet Our Team
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            The passionate experts driving innovation in sustainable battery solutions.
+            The passionate team driving innovation in sustainable battery solutions.
           </p>
         </div>
 
@@ -80,7 +80,7 @@ const Team = () => {
                   {member.name}
                 </h3>
                 
-                <p className="text-sustainability font-semibold mb-4">
+                <p className="text-xl font-heading font-bold text-innovation mb-2">
                   {member.role}
                 </p>
                 
