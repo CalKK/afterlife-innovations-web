@@ -78,7 +78,7 @@ const About = () => {
               </p>
             </div>
             <div className="space-y-3">
-              <Leaf className="text-xl font-heading font-semibold mb-3" />
+              
               <h4 className="font-heading font-semibold text-innovation">Deploy & Impact</h4>
               <p className="text-sm text-muted-foreground">
                 Deliver high-quality second-life products that reduce waste and provide clean energy
