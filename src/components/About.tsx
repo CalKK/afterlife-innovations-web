@@ -19,13 +19,10 @@ const About = () => {
               Our Mission
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              At Afterlife Innovations, we believe every battery deserves a second chance. We specialize in repurposing 
-              end-of-life lithium batteries into high-performance power solutions, reducing electronic waste while 
-              providing sustainable energy alternatives for consumers and businesses.
-            </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Through advanced testing, refurbishment, and quality assurance processes, we give discarded batteries 
-              new life in applications ranging from portable power banks to industrial energy storage systems.
+              At Afterlife Innovations, we believe every battery—whether it’s powering an electric vehicle, your smartphone, home solar setup or even a vintage gadget—deserves a second life. 
+              Through our nationwide network of collection, repurposing and recycling, we turn both new and spent batteries into ready-to-use energy solutions and recover their valuable materials. 
+              No battery is left behind: we keep power flowing, cut down on e-waste and protect communities by making sure every cell is reused or responsibly recycled. 
+              By breathing new life into yesterday’s batteries, we’re building a cleaner planet and fueling a truly circular economy.
             </p>
           </div>
 
