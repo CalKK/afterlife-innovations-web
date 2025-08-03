@@ -28,28 +28,28 @@ const About = () => {
 
           <div className="grid grid-cols-2 gap-6">
             <div className="text-center p-6 bg-card rounded-2xl border border-border">
-              <Target className="text-xl font-heading font-semibold mb-3" />
+              <Target className="text-4xl font-heading font-bold text-innovation mb-4" />
               <h4 className="font-heading font-semibold text-innovation mb-2">Our Vision</h4>
               <p className="text-sm text-muted-foreground">
                 Zero battery waste through complete circular economy solutions
               </p>
             </div>
             <div className="text-center p-6 bg-card rounded-2xl border border-border">
-              <Lightbulb className="text-xl font-heading font-semibold mb-3" />
+              <Lightbulb className="text-4xl font-heading font-bold text-innovation mb-4" />
               <h4 className="font-heading font-semibold text-innovation mb-2">Innovation</h4>
               <p className="text-sm text-muted-foreground">
                 Pioneering technologies in battery testing and repurposing
               </p>
             </div>
             <div className="text-center p-6 bg-card rounded-2xl border border-border">
-              <Shield className="text-xl font-heading font-semibold mb-3" />
+              <Shield className="text-4xl font-heading font-bold text-innovation mb-4" />
               <h4 className="font-heading font-semibold text-innovation mb-2">Quality</h4>
               <p className="text-sm text-muted-foreground">
                 Rigorous testing ensures reliable, safe second-life products
               </p>
             </div>
             <div className="text-center p-6 bg-card rounded-2xl border border-border">
-              <Leaf className="text-xl font-heading font-semibold mb-3" />
+              <Leaf className="text-4xl font-heading font-bold text-innovation mb-4" />
               <h4 className="font-heading font-semibold text-innovation mb-2">Impact</h4>
               <p className="text-sm text-muted-foreground">
                 Measurable environmental benefits through waste reduction
