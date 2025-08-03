@@ -83,6 +83,26 @@ const Footer = () => {
 
           {/* Footer Links */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div>
+              <h4 className="text-lg font-heading font-semibold mb-4 text-sustainability">
+                Navigation
+              </h4>
+              <ul className="space-y-3">
+                <li><a href="#home" className="opacity-75 hover:opacity-100 hover:text-sustainability transition-all duration-200">Home</a></li>
+                <li><a href="#about" className="opacity-75 hover:opacity-100 hover:text-sustainability transition-all duration-200">About</a></li>
+                <li><a href="#products" className="opacity-75 hover:opacity-100 hover:text-sustainability transition-all duration-200">Products</a></li>
+              </ul>
+            </div>
+            
+            <div>
+              <h4 className="text-lg font-heading font-semibold mb-4 text-sustainability">
+                Company
+              </h4>
+              <ul className="space-y-3">
+                <li><a href="#team" className="opacity-75 hover:opacity-100 hover:text-sustainability transition-all duration-200">Team</a></li>
+                <li><a href="#testimonials" className="opacity-75 hover:opacity-100 hover:text-sustainability transition-all duration-200">Testimonials</a></li>
+              </ul>
+            </div>
             
             <div>
               <h4 className="text-lg font-heading font-semibold mb-4 text-sustainability">
