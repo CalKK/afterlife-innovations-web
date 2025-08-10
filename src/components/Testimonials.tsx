@@ -22,7 +22,7 @@ const Testimonials = () => {
     },
     {
       name: "Ian Kiprono",
-      role: "Ex-community Manager",
+      role: "Ex-Community Manager",
       company: "Energy Mentors",
       content: "Afterlife Innovations has demonstrated robust prowess in delivering sound innovations within their market",
     }
