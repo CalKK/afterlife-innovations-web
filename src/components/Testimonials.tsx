@@ -30,10 +30,7 @@ const Testimonials = () => {
 
   const partners = [
     { name: "Strathmore University", logo: "https://raw.githubusercontent.com/CalKK/afterlife-innovations-web/main/images/STRATHMORE UNI LOGO.jpeg" },
-    
-    
-    
-    
+    { name: "CEPREC", logo: "https://raw.githubusercontent.com/CalKK/afterlife-innovations-web/main/images/CEPREC LOGO.jpeg" },
   ];
 
   return (
@@ -91,7 +88,7 @@ const Testimonials = () => {
                 <img
                   src={partner.logo}
                   alt={partner.name}
-                  className="w-24 h-24 object-cover rounded-lg grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100"
+                  className="w-24 h-24 object-cover rounded-lg transition-all duration-300 hover:shadow-lg"
                 />
                 <p className="text-sm font-medium text-innovation text-center mt-2">
                   {partner.name}
