@@ -36,7 +36,7 @@ const Testimonials = () => {
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
-        {/* Testimonials */}
+        {/* Testimonials */} 
         <div className="text-center mb-16">
           <h2 className="text-4xl font-heading font-bold text-innovation mb-4">
             Trusted by Leaders in Sustainability
