@@ -9,21 +9,36 @@ const Resources = () => {
       image: "https://images.unsplash.com/photo-1545235616-db3cd822ad8c?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       link: "https://strathmore.edu/news-articles/giving-batteries-a-second-life/",
       category: "Innovation",
-      excerpt: "Discover how we're transforming discarded batteries into valuable resources."
+      excerpt: "Discover how we're transforming discarded batteries into valuable resources.",
+      readTime: "5 min read",
+      date: "March 2024"
     },
     {
       title: "Strathmore Innovators transform E-waste into opportunities",
       image: "https://plus.unsplash.com/premium_photo-1681433419747-f5c114430ab5?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       link: "https://strathmore.edu/news-articles/strathmore-innovators-transform-e-waste-into-opportunities/",
       category: "Innovation",
-      excerpt: "Learn about our innovative approach to e-waste transformation."
+      excerpt: "Learn about our innovative approach to e-waste transformation.",
+      readTime: "4 min read",
+      date: "February 2024"
     },
     {
       title: "Distinguished Design Award",
       image: "https://images.unsplash.com/flagged/photo-1587096472434-8b65b343980d?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       link: "https://www.energymentors.org/ptc-winners-2025",
       category: "Innovation",
-      excerpt: "Celebrating our recognition for outstanding design innovation."
+      excerpt: "Celebrating our recognition for outstanding design innovation.",
+      readTime: "3 min read",
+      date: "January 2024"
+    },
+    {
+      title: "Your Featured Article Title",
+      image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?q=80&w=800&auto=format&fit=crop",
+      link: "https://your-link-here.com",
+      category: "Research",
+      excerpt: "Add your own compelling article description and showcase your latest achievements or research findings.",
+      readTime: "6 min read",
+      date: "April 2024"
     }
   ];
 
@@ -32,13 +47,22 @@ const Resources = () => {
       title: "Power The Community Victors Interview",
       thumbnail: "https://images.unsplash.com/photo-1550496923-a0e3ef948e3a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjA2fHxiYXR0ZXJ5JTIwaW5ub3ZhdGlvbnN8ZW58MHx8MHx8fDA%3D",
       link: "https://youtu.be/mYTZQqUBzC4",
-      description: "Interview with our team about winning the Power The Community competition."
+      description: "Interview with our team about winning the Power The Community competition.",
+      duration: "12:45"
     },
     {
       title: "Energy Mentors Award",
       thumbnail: "https://plus.unsplash.com/premium_photo-1716824502431-b93e3756a6aa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       link: "https://youtu.be/qgE5EDjO2cA",
-      description: "Highlights from receiving the Energy Mentors Award."
+      description: "Highlights from receiving the Energy Mentors Award.",
+      duration: "8:30"
+    },
+    {
+      title: "Your Video Title Here",
+      thumbnail: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?q=80&w=800&auto=format&fit=crop",
+      link: "https://your-video-link-here.com",
+      description: "Add your custom video description and showcase your latest presentations or demonstrations.",
+      duration: "15:20"
     }
   ];
 
