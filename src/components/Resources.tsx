@@ -11,7 +11,7 @@ const Resources = () => {
       category: "Innovation",
       excerpt: "Discover how we're transforming discarded batteries into valuable resources.",
       readTime: "5 min read",
-      date: "March 2024"
+      date: "July 2025"
     },
     {
       title: "Strathmore Innovators transform E-waste into opportunities",
@@ -19,8 +19,8 @@ const Resources = () => {
       link: "https://strathmore.edu/news-articles/strathmore-innovators-transform-e-waste-into-opportunities/",
       category: "Innovation",
       excerpt: "Learn about our innovative approach to e-waste transformation.",
-      readTime: "4 min read",
-      date: "February 2024"
+      readTime: "3 min read",
+      date: "July 2024"
     },
     {
       title: "Distinguished Design Award",
@@ -29,16 +29,16 @@ const Resources = () => {
       category: "Innovation",
       excerpt: "Celebrating our recognition for outstanding design innovation.",
       readTime: "3 min read",
-      date: "January 2024"
+      date: "June 2025"
     },
     {
-      title: "Your Featured Article Title",
-      image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?q=80&w=800&auto=format&fit=crop",
-      link: "https://your-link-here.com",
+      title: "Afterlife Innovations x CEPREC",
+      image: "https://plus.unsplash.com/premium_photo-1716999684531-b8f40731a827?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzd8fG1pY3JvZ3JpZCUyMGJhdHRlcnklMjBpbm5vdmF0aW9uc3xlbnwwfHwwfHx8MA%3D%3D",
+      link: "https://sbs.strathmore.edu/from-discarded-battery-cells-to-clean-circular-energy-solutions-ceprec-meets-with-afterlife-innovations",
       category: "Research",
-      excerpt: "Add your own compelling article description and showcase your latest achievements or research findings.",
-      readTime: "6 min read",
-      date: "April 2024"
+      excerpt: "Exploring collaborative avenues with industry players.",
+      readTime: "2 min read",
+      date: "August 2025"
     }
   ];
 
