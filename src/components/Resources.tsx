@@ -56,13 +56,6 @@ const Resources = () => {
       link: "https://youtu.be/qgE5EDjO2cA",
       description: "Highlights from receiving the Energy Mentors Award.",
       duration: "8:30"
-    },
-    {
-      title: "Your Video Title Here",
-      thumbnail: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?q=80&w=800&auto=format&fit=crop",
-      link: "https://your-video-link-here.com",
-      description: "Add your custom video description and showcase your latest presentations or demonstrations.",
-      duration: "15:20"
     }
   ];
 
