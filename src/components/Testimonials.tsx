@@ -31,6 +31,7 @@ const Testimonials = () => {
   const partners = [
     { name: "Strathmore University", logo: "https://raw.githubusercontent.com/CalKK/afterlife-innovations-web/main/images/STRATHMORE UNI LOGO.jpeg" },
     { name: "CEPREC", logo: "https://raw.githubusercontent.com/CalKK/afterlife-innovations-web/main/images/CEPREC LOGO.jpeg" },
+    { name: "Kilele Accelerator", logo: "https://raw.githubusercontent.com/CalKK/afterlife-innovations-web/main/images/KILELE LOGO.jpeg"},
   ];
 
   return (
