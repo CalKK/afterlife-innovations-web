@@ -9,7 +9,7 @@ const Products = () => {
       title: "Portable Second-life Power Banks",
       description: "High-capacity power banks built from repurposed lithium batteries, perfect for consumers who need reliable mobile charging.",
       features: ["10,000mAh capacity", "Fast charging technology", "Eco-friendly construction"],
-      image: "https://raw.githubusercontent.com/CalKK/afterlife-innovations-web/main/images/WEBO POWERBANK.jpeg"
+      image: "https://raw.githubusercontent.com/CalKK/afterlife-innovations-web/main/images/PWB.png"
     },
     /*
     {
