@@ -13,6 +13,7 @@ const Products = () => {
     },
     /*
     {
+    
       icon: Car,
       title: "E-bike Battery Packs",
       description: "Sustainable battery solutions for electric bicycles, combining performance with environmental responsibility.",
