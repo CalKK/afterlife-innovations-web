@@ -54,8 +54,12 @@ const Products = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {products.map((product, index) => (
             <Card key={index} className="overflow-hidden hover:shadow-xl transition-all duration-300 border-border">
-              <div className="aspect-video bg-gradient-to-br from-sustainability/10 to-sustainability/5 flex items-center justify-center">
-                <product.icon className="w-16 h-16 text-sustainability" />
+              <div className="aspect-video bg-gradient-to-br from-sustainability/10 to-sustainability/5 overflow-hidden">
+                <img 
+                  src={product.image} 
+                  alt={product.title}
+                  className="w-full h-full object-cover"
+                />
               </div>
      <CardHeader>
   <CardTitle className="flex items-center gap-3 text-2xl font-heading text-innovation">
