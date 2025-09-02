@@ -4,9 +4,9 @@ const Stats = () => {
   const stats = [
     {
       icon: TrendingUp,
-      number: "50M+",
+      number: "51K+",
       label: "Tonnes of Lithium Waste",
-      description: "Generated globally each year that needs sustainable solutions"
+      description: "Generated countrywide in Kenyya that need sustainable solutions"
     },
     {
       icon: Zap,
@@ -22,7 +22,7 @@ const Stats = () => {
     },
     {
       icon: Users,
-      number: "10K+",
+      number: "1K+",
       label: "Community Members",
       description: "To actively participating in our battery collection programs"
     },    
