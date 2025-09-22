@@ -32,6 +32,7 @@ const Testimonials = () => {
     { name: "Strathmore University", logo: "https://raw.githubusercontent.com/CalKK/afterlife-innovations-web/main/images/STRATHMORE UNI LOGO.jpeg" },
     { name: "CEPREC", logo: "https://raw.githubusercontent.com/CalKK/afterlife-innovations-web/main/images/CEPREC LOGO.jpeg" },
     { name: "Kilele Accelerator", logo: "https://raw.githubusercontent.com/CalKK/afterlife-innovations-web/main/images/KILELE ACC.png"},
+    { name: "10 Billion Strong", logo: "https://raw.githubusercontent.com/CalKK/afterlife-innovations-web/main/images/10 BILLION STRONG.jpeg"},
   ];
 
   return (
