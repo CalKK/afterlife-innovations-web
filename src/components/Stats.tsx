@@ -4,22 +4,22 @@ const Stats = () => {
   const stats = [
     {
       icon: TrendingUp,
-      number: "51K+",
-      label: "Tonnes of Lithium Waste",
-      description: "Generated countrywide in Kenyya that need sustainable solutions"
-    },
+      number: "100",
+      label: "Kgs of Lithium Waste",
+      description: "That we have been able to collect."
+    },/*
     {
       icon: Zap,
       number: "85%",
       label: "Energy Recovery Rate",
       description: "From repurposed batteries through our innovative ecosystem engines"
-    },
-    {
+    },*/
+    /*{
       icon: Globe,
       number: "2.5T",
       label: "CO₂ Emissions Saved",
       description: "Per thousand batteries to be recycled through our processes"
-    },
+    },*/
     {
       icon: Users,
       number: "1K+",
@@ -33,7 +33,7 @@ const Stats = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-heading font-bold text-innovation mb-4">
-            Making a Real Difference
+            Our Traction
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Our impact extends beyond technology - we're building a sustainable future 
