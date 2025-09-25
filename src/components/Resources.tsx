@@ -50,6 +50,12 @@ const Resources = () => {
       thumbnail: "https://plus.unsplash.com/premium_photo-1716824502431-b93e3756a6aa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       link: "https://youtu.be/qgE5EDjO2cA",
       description: "Highlights from receiving the Energy Mentors Award."
+    },
+    {
+      title: "Inspiring the future generation",
+      thumbnail: "https://plus.unsplash.com/premium_photo-1683120793196-0797cec08a7d?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      link: "https://youtu.be/-QoRN-DgZ5U",
+      description: "Powerful counsel from the Founder & President of Energy Mentors."
     }
   ];
 
