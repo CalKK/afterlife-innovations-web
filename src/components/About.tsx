@@ -18,10 +18,11 @@ const About = () => {
             <h3 className="text-3xl font-heading font-bold text-innovation">
               Our Mission
             </h3>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              At Afterlife Innovations, we believe every battery—whether it’s powering an electric vehicle, your smartphone, home solar setup or even a vintage gadget—deserves a second life. 
-              Through our nationwide network of collection, repurposing and recycling, we turn both new and spent batteries into ready-to-use energy solutions and recover their valuable materials. 
-              No battery is left behind: we keep power flowing, cut down on e-waste and protect communities by making sure every cell is reused or responsibly recycled. 
+            <p className="text-lg text-muted-foreground leading-relaxed">At Afterlife Innovations, our primary objective is to unlock the "Afterlife" of batteries—ensuring every cell, whether powering an electric vehicle, smartphone, home solar setup, or vintage gadget, gets a meaningful second life.
+              Through our nationwide network of collection, repurposing, and recycling, we transform both new and spent batteries into ready-to-use energy solutions while recovering their valuable materials. 
+              To combat environmental degradation, we focus on recycling and reusing discarded batteries, pumping renewed products back into the economy and mitigating the release of toxic materials into the environment.
+              Addressing insufficient energy access, we design innovative battery packs capable of powering mini-grids for communities beyond the reach of national infrastructure. 
+              No battery is left behind: we keep power flowing, reduce e-waste, and protect communities by ensuring every cell is reused or responsibly recycled.
               By breathing new life into yesterday’s batteries, we’re building a cleaner planet and fueling a truly circular economy.
             </p>
           </div>
