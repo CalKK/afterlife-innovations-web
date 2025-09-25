@@ -73,38 +73,37 @@ const Resources = () => {
         </h3>
       </div>
       
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {blogPosts.map((post, index) => (
           <Card key={index} className="overflow-hidden hover:shadow-lg transition-all duration-300 border-border">
             <div className="aspect-video bg-cover bg-center" style={{ backgroundImage: `url(${post.image})` }} />
             
-            <CardHeader>
+            <CardHeader className="p-4">
               <div className="flex items-center gap-2 mb-2">
-                <span className="px-3 py-1 bg-sustainability/10 text-sustainability text-xs font-medium rounded-full">
+                <span className="px-2 py-1 bg-sustainability/10 text-sustainability text-xs font-medium rounded-full">
                   {post.category}
                 </span>
-                <span className="text-xs text-muted-foreground">{post.readTime}</span>
               </div>
-              <CardTitle className="text-xl font-heading text-innovation line-clamp-2">
+              <CardTitle className="text-lg font-heading text-innovation line-clamp-2">
                 {post.title}
               </CardTitle>
             </CardHeader>
             
-            <CardContent>
-              <p className="text-muted-foreground mb-4 line-clamp-3">
+            <CardContent className="p-4 pt-0">
+              <p className="text-muted-foreground mb-3 line-clamp-2 text-sm">
                 {post.excerpt}
               </p>
               
               <div className="flex items-center justify-between">
-                <span className="text-sm text-muted-foreground">{post.date}</span>
+                <span className="text-xs text-muted-foreground">{post.date}</span>
                 <Button 
                   variant="ghost" 
                   size="sm" 
-                  className="text-sustainability hover:bg-sustainability/10"
+                  className="text-sustainability hover:bg-sustainability/10 text-xs"
                   onClick={() => window.open(post.link, "_blank")}
                 >
                   Read More
-                  <ArrowRight className="w-4 h-4 ml-2" />
+                  <ArrowRight className="w-3 h-3 ml-1" />
                 </Button>
               </div>
             </CardContent>
@@ -121,30 +120,27 @@ const Resources = () => {
         </h3>
       </div>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {videos.map((video, index) => (
           <Card key={index} className="overflow-hidden hover:shadow-lg transition-all duration-300 border-border">
             <div className="relative">
               <div className="aspect-video bg-cover bg-center" style={{ backgroundImage: `url(${video.thumbnail})` }} />
               <div className="absolute inset-0 bg-innovation/20 flex items-center justify-center">
                 <Button 
-                  size="lg" 
+                  size="sm" 
                   className="rounded-full bg-sustainability hover:bg-sustainability-light"
                   onClick={() => window.open(video.link, "_blank")}
                 >
-                  <Play className="w-8 h-8" />
+                  <Play className="w-5 h-5" />
                 </Button>
-              </div>
-              <div className="absolute bottom-4 right-4 bg-innovation/80 text-trust px-2 py-1 rounded text-sm">
-                {video.duration}
               </div>
             </div>
             
-            <CardHeader>
-              <CardTitle className="text-xl font-heading text-innovation">
+            <CardHeader className="p-4">
+              <CardTitle className="text-lg font-heading text-innovation line-clamp-2">
                 {video.title}
               </CardTitle>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground text-sm line-clamp-2">
                 {video.description}
               </p>
             </CardHeader>
