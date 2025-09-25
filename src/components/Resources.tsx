@@ -10,7 +10,6 @@ const Resources = () => {
       link: "https://strathmore.edu/news-articles/giving-batteries-a-second-life/",
       category: "Innovation",
       excerpt: "Discover how we're transforming discarded batteries into valuable resources.",
-      readTime: "5 min read",
       date: "July 2025"
     },
     {
@@ -19,7 +18,6 @@ const Resources = () => {
       link: "https://strathmore.edu/news-articles/strathmore-innovators-transform-e-waste-into-opportunities/",
       category: "Innovation",
       excerpt: "Learn about our innovative approach to e-waste transformation.",
-      readTime: "3 min read",
       date: "July 2024"
     },
     {
@@ -28,7 +26,6 @@ const Resources = () => {
       link: "https://www.energymentors.org/ptc-winners-2025",
       category: "Innovation",
       excerpt: "Celebrating our recognition for outstanding design innovation.",
-      readTime: "3 min read",
       date: "June 2025"
     },
     {
@@ -37,7 +34,6 @@ const Resources = () => {
       link: "https://sbs.strathmore.edu/from-discarded-battery-cells-to-clean-circular-energy-solutions-ceprec-meets-with-afterlife-innovations",
       category: "Research",
       excerpt: "Exploring collaborative avenues with industry players.",
-      readTime: "2 min read",
       date: "August 2025"
     }
   ];
@@ -47,15 +43,13 @@ const Resources = () => {
       title: "Power The Community Victors Interview",
       thumbnail: "https://images.unsplash.com/photo-1550496923-a0e3ef948e3a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjA2fHxiYXR0ZXJ5JTIwaW5ub3ZhdGlvbnN8ZW58MHx8MHx8fDA%3D",
       link: "https://youtu.be/mYTZQqUBzC4",
-      description: "Interview with our team about winning the Power The Community competition.",
-      duration: "12:45"
+      description: "Interview with our team about winning the Power The Community competition."
     },
     {
       title: "Energy Mentors Award",
       thumbnail: "https://plus.unsplash.com/premium_photo-1716824502431-b93e3756a6aa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       link: "https://youtu.be/qgE5EDjO2cA",
-      description: "Highlights from receiving the Energy Mentors Award.",
-      duration: "8:30"
+      description: "Highlights from receiving the Energy Mentors Award."
     }
   ];
 
@@ -64,7 +58,7 @@ const Resources = () => {
   <div className="container mx-auto px-4">
     <div className="text-center mb-16">
       <h2 className="text-4xl font-heading font-bold text-innovation mb-4">
-        Features & Awards
+        Features & Accolades
       </h2>
       <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
         Preview some of our accolades, accomplishments & features. 
