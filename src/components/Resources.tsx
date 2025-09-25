@@ -35,7 +35,7 @@ const Resources = () => {
       category: "Research",
       excerpt: "Exploring collaborative avenues with industry players.",
       date: "August 2025"
-    }
+    },
   ];
 
   const videos = [
